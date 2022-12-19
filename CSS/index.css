@@ -2,21 +2,21 @@
     display: inline-block;
 }
 
-.logo {
-    display: inline-block;
-    align-items: flex-start;
-    justify-content: center;
-}
-
-
 nav {
     background-color: #0D364E;
     color: #f2f2f2;
-    text-align: center;
     padding: 0px;
+    text-align: center;
     text-decoration: none;
     font-size: 20px;
     width: 100vw;
+}
+
+.details {
+    align-items: flex-start;
+    display: inline-block;
+    padding-left: 100px;
+    
 }
 
 ul {
@@ -71,6 +71,10 @@ li {
 h1 {
     font-style: normal;
     font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h3 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
